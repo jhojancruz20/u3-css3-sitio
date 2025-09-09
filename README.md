@@ -1,7 +1,7 @@
 # Proyecto: u3-css3-sitio
 
 Este proyecto corresponde al trabajo de **Programación Web (HTML5 + CSS3)**.  
-Se implementa un sitio web con 10 páginas HTML y estilos en CSS, cumpliendo todos los requerimientos especificados.  
+Se implementa un sitio web con 10 páginas HTML y estilos en CSS, cumpliendo todos los requerimientos especificados en la Uvirtual.  
 
 ---
 
@@ -70,12 +70,13 @@ Se implementa un sitio web con 10 páginas HTML y estilos en CSS, cumpliendo tod
 ## 🚀 Tecnologías Usadas
 
 - **HTML5**  
-- **CSS3** (Flexbox, Grid, Media Queries)  
+- **CSS3**
 - **Visual Studio Code**  
 
 ---
 
 ## 📌 Autor
 
-Desarrollado por **[Tu Nombre]**  
+Desarrollado por **Jhojan Fernando Cruz Bulla**  
+Codigo de Estudiante **1152318**
 Estudiante de **Programación Web**  
