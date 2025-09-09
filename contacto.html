@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Contacto - Mi Sitio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="top-banner">Banner fijo: Entrega U3 - CSS3</div>
+
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="acerca.html">Acerca</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="blog.html">Blog</a>
+      <a href="galeria.html">Galería</a>
+      <a href="tabla.html">Tabla</a>
+      <a href="contacto.html" class="activo">Contacto</a>
+      <a href="legal.html">Legal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Escríbenos</h2>
+      <p>Formulario de contacto estilizado con HTML y CSS.</p>
+    </section>
+
+    <form action="#" method="post" novalidate>
+      <div class="form-field">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+        <!-- Ejemplo de un campo con error -->
+        <span class="mensaje-error" style="display:none">Este campo es obligatorio.</span>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Correo</label>
+        <input id="email" name="email" type="email" placeholder="tu@ejemplo.com">
+      </div>
+
+      <div class="form-field">
+        <label for="motivo">Motivo</label>
+        <select id="motivo" name="motivo">
+          <option value="">Seleccione...</option>
+          <option value="info">Información</option>
+          <option value="soporte">Soporte</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Pie de página — © 2025 Mi Sitio</p>
+  </footer>
+</body>
+</html>
