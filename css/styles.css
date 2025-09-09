@@ -1,0 +1,209 @@
+/* RESET CSS (requerido) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo base body (requerido) */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background: #FAFAFA;
+  padding-top: 50px; /* espacio para banner fijo */
+}
+
+/* BANNER FIJO SUPERIOR (requerido) */
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFC107;
+  color: #000;
+  text-align: center;
+  padding: 8px 12px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+/* Header (fondo #0D47A1 y texto blanco) */
+header {
+  background: #0D47A1;
+  color: #fff;
+  padding: 18px 12px;
+}
+
+/* Nav con Flexbox horizontal (requerido) */
+nav {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Clase .activo para enlace actual */
+nav a.activo {
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Estados de foco visibles en enlaces (requerido) */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 3px solid #1976D2;
+  outline-offset: 2px;
+}
+
+/* Main centrado con max-width 1100px (requerido) */
+main {
+  max-width: 1100px;
+  margin: 28px auto;
+  padding: 0 12px;
+}
+
+/* Selector descendente main p */
+main p {
+  margin-bottom: 10px;
+}
+
+/* Sección #intro con fondo y borde */
+#intro {
+  background: #E3F2FD;
+  border: 1px solid #BBDEFB;
+  padding: 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* Tarjetas en grid de 3 columnas */
+.seccion-tarjetas .tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.tarjeta {
+  background: #fff;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+.tarjeta:hover {
+  transform: translateY(-3px); /* efecto hover solicitado */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+/* Clases de color (.hex, .rgb, .hsl) */
+.hex { color: #e91e63; }
+.rgb { color: rgb(33,150,243); }
+.hsl { color: hsl(120, 60%, 35%); }
+
+/* Unidades demostrativas en párrafos */
+.px { font-size: 18px; }   /* px */
+.porcentaje { width: 80%; }/* % */
+.em { font-size: 1.1em; }  /* em */
+.rem { font-size: 1.25rem; }/* rem */
+
+/* Tres cajas con margin, padding y border; tercera con box-sizing border-box */
+.cajas { display:flex; gap:12px; margin: 18px 0; }
+.box { flex:1; margin: 6px; padding: 12px; border: 2px solid #ccc; background: #fff; }
+.box.box1, .box.box2 { box-sizing: content-box; } /* forzar content-box en 1 y 2 */
+.box.box3 { box-sizing: border-box; }
+
+/* Footer */
+footer {
+  background: #212121;
+  color: #fff;
+  padding: 16px 12px;
+  text-align:center;
+  margin-top: 28px;
+}
+
+/* Badge absoluto en blog.html (usa contenedor relativo) */
+.blog-card { position: relative; padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fff; }
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #d32f2f;
+  color: #fff;
+  padding: 6px 8px;
+  font-size: 12px;
+  border-radius: 999px;
+}
+
+/* Chips en acerca.html */
+.chips { display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; }
+.chip {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #1976D2;
+  background: rgba(25,118,210,0.06);
+}
+
+/* Tabla con filas alternadas */
+.table-responsive { overflow-x:auto; }
+table {
+  width:100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+table tr:nth-child(even) { background: #f7f7f7; }
+
+/* Formulario estilizado en contacto.html */
+.form-field { margin-bottom: 12px; display:flex; flex-direction:column; gap:6px; }
+input[type="text"], input[type="email"], select, textarea {
+  padding:10px;
+  border:1px solid #bdbdbd;
+  border-radius:6px;
+  font-size:1rem;
+  resize:vertical;
+}
+button[type="submit"] {
+  padding:10px 14px;
+  border:none;
+  border-radius:6px;
+  background:#0D47A1;
+  color:#fff;
+  cursor:pointer;
+}
+button[type="submit"]:hover { opacity:0.95; }
+
+/* Clase .error y .mensaje-error */
+.error { border-color: #d32f2f !important; background: #fff5f5; }
+.mensaje-error { color: #d32f2f; font-size: 0.9rem; margin-top:4px; }
+
+/* Galería con grid de 4 columnas */
+.galeria-grid {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.galeria-grid img { width:100%; height:auto; display:block; border-radius:6px; }
+
+/* MEDIA QUERIES (responsive) */
+@media (max-width: 900px) {
+  .seccion-tarjetas .tarjetas { grid-template-columns: repeat(2, 1fr); }
+  .galeria-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 600px) {
+  nav { gap:8px; }
+  .seccion-tarjetas .tarjetas { grid-template-columns: 1fr; }
+  .galeria-grid { grid-template-columns: repeat(2, 1fr); }
+  body { padding-top: 70px; } /* más espacio si banner ocupa más */
+}

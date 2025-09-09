@@ -1,11 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Pagina Web con css y HTML5</title>
+  <meta charset="utf-8">
+  <title>Inicio - Mi Sitio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    
+  <div class="top-banner">Banner fijo: Entrega U3 - CSS3</div>
+
+  <header>
+    <h1>Mi Sitio - Inicio</h1>
+    <nav>
+      <a href="index.html" class="activo">Inicio</a>
+      <a href="acerca.html">Acerca</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="blog.html">Blog</a>
+      <a href="galeria.html">Galería</a>
+      <a href="tabla.html">Tabla</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="legal.html">Legal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Bienvenido</h2>
+      <p>Este sitio fue creado como trabajo de programación web usando sólo HTML5 y CSS.</p>
+    </section>
+
+    <section class="seccion-tarjetas">
+      <h2>Características</h2>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <h3>Tarjeta 1</h3>
+          <p class="hex">Color con hex (#e91e63).</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Tarjeta 2</h3>
+          <p class="rgb">Color con rgb(33,150,243).</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Tarjeta 3</h3>
+          <p class="hsl">Color con hsl(120,60%,35%).</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Unidades demostrativas</h2>
+      <p class="px">Texto con tamaño en px (18px).</p>
+      <p class="porcentaje">Caja con ancho en % (80%).</p>
+      <p class="em">Texto con unidad em (1.1em).</p>
+      <p class="rem">Texto con unidad rem (1.25rem).</p>
+    </section>
+
+    <section class="cajas">
+      <div class="box box1">Caja 1 (content-box)</div>
+      <div class="box box2">Caja 2 (content-box)</div>
+      <div class="box box3">Caja 3 (box-sizing: border-box)</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pie de página — © 2025 Mi Sitio</p>
+  </footer>
 </body>
 </html>
