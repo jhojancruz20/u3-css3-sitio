@@ -107,7 +107,7 @@ main p {
 /* Clases de color (.hex, .rgb, .hsl) */
 .hex { color: #e91e63; }
 .rgb { color: rgb(33,150,243); }
-.hsl { color: hsl(120, 60%, 35%); }
+.hsl { color: hsla(60, 97%, 36%, 0.822); }
 
 /* Unidades demostrativas en párrafos */
 .px { font-size: 18px; }   /* px */
@@ -116,10 +116,29 @@ main p {
 .rem { font-size: 1.25rem; }/* rem */
 
 /* Tres cajas con margin, padding y border; tercera con box-sizing border-box */
-.cajas { display:flex; gap:12px; margin: 18px 0; }
-.box { flex:1; margin: 6px; padding: 12px; border: 2px solid #ccc; background: #fff; }
-.box.box1, .box.box2 { box-sizing: content-box; } /* forzar content-box en 1 y 2 */
-.box.box3 { box-sizing: border-box; }
+.box {
+  flex: 1;
+  margin: 6px;
+  padding: 12px;
+  border: 5px solid #000000;
+  background: #000;     /* Fondo negro */
+  color: #fff;          /* Texto blanco */
+}
+.box1 {
+  background: #f0f400;
+  color: #2c1111;
+}
+
+.box2 {
+  background: #004cef;
+  color: #fff;
+}
+
+.box3 {
+  background: #ff0000;
+  color: #fff;
+}
+
 
 /* Footer */
 footer {

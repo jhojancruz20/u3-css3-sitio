@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <title>Inicio - Mi Sitio Web Con CSS</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
   <div class="top-banner">ACTIVIDAD 3 - Mi sitio Web de Computadoras</div>
 
@@ -25,45 +27,142 @@
 
   <main>
     <section id="intro">
+
       <h2>Bienvenido</h2>
-      <p>Este sitio fue creado como trabajo de programación web usando sólo HTML5 y CSS.</p>
+      <p>
+        Este es un sitio web creado únicamente con <strong>HTML5</strong> y <strong>CSS3</strong>,
+        dedicado al mundo de las <strong>computadoras</strong> y la <strong>tecnología</strong>.
+        Aquí encontrarás información básica sobre hardware, software y tendencias actuales.
+      </p>
+      <p>
+        Nuestro objetivo es compartir contenido claro y sencillo para estudiantes,
+        entusiastas y cualquier persona interesada en conocer más sobre el fascinante
+        universo de la informática.
+      </p>
+
+      <ul>
+        <li>Historia y evolución de las computadoras</li>
+        <li>Partes principales del hardware</li>
+        <li>Software y sistemas operativos</li>
+        <li>Tecnología en la vida cotidiana</li>
+      </ul>
+      <div style="text-align: center;">
+        <img src="img/imagen1.jpeg" alt="Ilustración de una computadora" width="300">
+      </div>
+
     </section>
 
+
     <section class="seccion-tarjetas">
-      <h2>Características</h2>
+      <h2>Características de un computador</h2>
       <div class="tarjetas">
+
         <article class="tarjeta">
-          <h3>Tarjeta 1</h3>
-          <p class="hex">Color con hex (#e91e63).</p>
+          <h3>Procesador</h3>
+          <p class="hex">El "cerebro" del computador, encargado de ejecutar instrucciones y cálculos. Ejemplo: Intel
+            Core i7, AMD Ryzen.</p>
         </article>
+
         <article class="tarjeta">
-          <h3>Tarjeta 2</h3>
-          <p class="rgb">Color con rgb(33,150,243).</p>
+          <h3>Memoria RAM</h3>
+          <p class="rgb">Almacena datos temporales para que los programas funcionen rápido. Más RAM significa mayor
+            velocidad multitarea.</p>
         </article>
+
+
         <article class="tarjeta">
-          <h3>Tarjeta 3</h3>
-          <p class="hsl">Color con hsl(120,60%,35%).</p>
+          <h3>Disco SSD</h3>
+          <p class="hsl">Permite guardar información permanentemente y ofrece mucha más velocidad que los discos duros
+            tradicionales (HDD).</p>
         </article>
+
+        <article class="tarjeta">
+          <h3>Tarjeta Gráfica</h3>
+          <p class="hex">Procesa imágenes y videos, esencial para juegos y diseño gráfico. Ejemplos: NVIDIA GeForce,
+            AMD Radeon.</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Placa Base</h3>
+          <p class="rgb">Conecta todos los componentes del computador, permitiendo que trabajen juntos de manera
+            eficiente.</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Fuente de Poder</h3>
+          <p class="hsl">Suministra energía eléctrica a todos los componentes del computador, asegurando un
+            funcionamiento estable.</p>
+        </article>
+
       </div>
     </section>
 
     <section>
-      <h2>Unidades demostrativas</h2>
-      <p class="px">Texto con tamaño en px (18px).</p>
-      <p class="porcentaje">Caja con ancho en % (80%).</p>
-      <p class="em">Texto con unidad em (1.1em).</p>
-      <p class="rem">Texto con unidad rem (1.25rem).</p>
+      <h2>Unidades de medida en CSS</h2>
+      <p>
+        Así como en informática usamos unidades como <strong>GB</strong>
+        para memoria o <strong>GHz</strong> para velocidad de procesador,
+        en CSS existen unidades para definir tamaños y espacios,
+        como <strong>px</strong>, <strong>em</strong>, <strong>rem</strong>
+        y <strong>%</strong>. Estas ayudan a controlar el diseño y la presentación
+        de los elementos en la página web.
+      </p>
+      <p class="px">
+        Las computadoras actuales utilizan procesadores con miles de millones de transistores.
+        Este texto usa <strong>18px</strong>
+      </p>
+
+      <p class="porcentaje">
+        Un disco duro tradicional (HDD) puede almacenar desde 500 GB hasta varios terabytes.
+        Aquí el texto usa <strong>120%</strong>
+      </p>
+
+      <p class="em">
+        La memoria RAM permite que el sistema abra varios programas al mismo tiempo.
+        Este texto usa <strong>1.1em</strong>
+      </p>
+
+      <p class="rem">
+        Las tarjetas gráficas modernas son esenciales para videojuegos y diseño 3D.
+        Aquí el texto se muestra con <strong>1.25rem</strong>
+      </p>
     </section>
 
     <section class="cajas">
-      <div class="box box1">Caja 1 (content-box)</div>
-      <div class="box box2">Caja 2 (content-box)</div>
-      <div class="box box3">Caja 3 (box-sizing: border-box)</div>
+      <h2>Componentes Externos de una Computadora</h2>
+
+      <div class="box box1">
+        <h3>Gabinete</h3>
+        <p>Es la estructura que contiene todos los componentes internos de la computadora: placa base, procesador,
+          memoria RAM, fuente de poder y ventiladores.</p>
+      </div>
+
+      <div class="box box2">
+        <h3>Monitor</h3>
+        <p>Dispositivo de salida que muestra la información gráfica generada por la tarjeta de video. Su calidad depende
+          de la resolución y la frecuencia de actualización.</p>
+      </div>
+
+      <div class="box box3">
+        <h3>Teclado</h3>
+        <p>Periférico de entrada que permite al usuario comunicarse con la computadora. Cada tecla transmite una señal
+          interpretada por el sistema.</p>
+      </div>
     </section>
+
   </main>
 
   <footer>
-    <p>Pie de página — © 2025 Mi Sitio</p>
+    <div class="footer-contenido">
+      <p>© 2025 Mi Sitio sobre Computadoras. Todos los derechos reservados.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Inicio</a> |
+        <a href="acerca.html">Acerca</a> |
+        <a href="contacto.html">Contacto</a> |
+        <a href="legal.html">Aviso Legal</a>
+      </nav>
+      <p class="creditos">Diseñado por Fernando Cruz usando HTML5 y CSS3</p>
+    </div>
   </footer>
 </body>
 </html>
