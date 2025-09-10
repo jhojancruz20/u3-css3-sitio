@@ -1,7 +1,6 @@
 # Proyecto: u3-css3-sitio
 
-Este proyecto corresponde al trabajo de **Programación Web (HTML5 + CSS3)**.  
-Se implementa un sitio web con 10 páginas HTML y estilos en CSS, cumpliendo todos los requerimientos especificados en la Uvirtual.  
+Este proyecto corresponde al trabajo de **Programación Web (HTML5 + CSS3)**.
 
 ---
 
@@ -42,28 +41,17 @@ Se implementa un sitio web con 10 páginas HTML y estilos en CSS, cumpliendo tod
 ## 📸 Capturas de Pantalla
 
 ### 🏠 Página de inicio (index.html)  
-![Index](img/captura-index.png)
+![Index](img/inicio.png.png)
 
 ### ℹ️ Página acerca (acerca.html)  
-![Acerca](img/captura-acerca.png)
+![Acerca](img/captura-acerca.jpeg.png)
 
 ### 📑 Servicios (servicios.html)  
-![Servicios](img/captura-servicios.png)
+![Servicios](img/captura-servicios.jpeg)
 
 ### ✉️ Contacto (contacto.html)  
-![Contacto](img/captura-contacto.png)
+![Contacto](img/captura-contacto.jpeg)
 
-### 📰 Blog (blog.html)  
-![Blog](img/captura-blog.png)
-
-### 🖼️ Galería (galeria.html)  
-![Galería](img/captura-galeria.png)
-
-### 📊 Tabla (tabla.html)  
-![Tabla](img/captura-tabla.png)
-
-### ⚖️ Legal (legal.html)  
-![Legal](img/captura-legal.png)
 
 ---
 

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <div class="top-banner">Banner fijo: Entrega U3 - CSS3</div>
+  <div class="top-banner">ACTIVIDAD 3 - Mi sitio Web de Computadoras</div>
 
   <header>
     <h1>COMPUTADORAS</h1>
@@ -25,23 +25,77 @@
 
   <main>
     <h2>Comparativa de computadoras</h2>
+    <p>A continuación, se presenta una comparativa de algunos modelos de 
+      computadoras populares en el mercado, con sus principales 
+      características técnicas y precios de referencia.</p>
+
     <div class="table-responsive">
       <table>
         <thead>
-          <tr><th>Modelo</th><th>Procesador</th><th>Ram</th><th>Precio</th></tr>
+          <tr>
+            <th>Imagen</th>
+            <th>Modelo</th>
+            <th>Procesador</th>
+            <th>RAM</th>
+            <th>Almacenamiento</th>
+            <th>Gráficos</th>
+            <th>Precio</th>
+          </tr>
         </thead>
         <tbody>
-          <tr><td>Dell Inspiron</td><td>Intel i5</td><td>8 GB</td><td>2'400.000</td></tr>
-          <tr><td>HP Pavilion</td><td>AMD Ryzen 5</td><td>16 GB</td><td>3'000.000</td></tr>
-          <tr><td>Lenovo ThinkPad</td><td>Intel i7</td><td>16 GB</td><td>3'929.000</td></tr>
-          <tr><td>Asus</td><td>intel i5</td><td>8 GB</td><td>3'200.00</td></tr>
+          <tr>
+            <td><img src="/img/dell.jpeg" alt="Dell Inspiron" width="80"></td>
+            <td>Dell Inspiron</td>
+            <td>Intel i5</td>
+            <td>8 GB</td>
+            <td>512 GB SSD</td>
+            <td>Intel UHD</td>
+            <td>$2'400.000</td>
+          </tr>
+          <tr>
+            <td><img src="/img/hp.jpeg" alt="HP Pavilion" width="80"></td>
+            <td>HP Pavilion</td>
+            <td>AMD Ryzen 5</td>
+            <td>16 GB</td>
+            <td>512 GB SSD</td>
+            <td>AMD Radeon Vega</td>
+            <td>$3'000.000</td>
+          </tr>
+          <tr class="destacado">
+            <td><img src="/img/lenovo.jpeg" alt="Lenovo ThinkPad" width="80"></td>
+            <td>Lenovo ThinkPad</td>
+            <td>Intel i7</td>
+            <td>16 GB</td>
+            <td>1 TB SSD</td>
+            <td>NVIDIA MX450</td>
+            <td>$3'929.000</td>
+          </tr>
+          <tr>
+            <td><img src="/img/asus.jpeg" alt="Asus" width="80"></td>
+            <td>Asus VivoBook</td>
+            <td>Intel i5</td>
+            <td>8 GB</td>
+            <td>256 GB SSD</td>
+            <td>Intel Iris Xe</td>
+            <td>$3'200.000</td>
+          </tr>
         </tbody>
       </table>
     </div>
+    <a href="contacto.html" class="btn">Solicitar asesoría</a>
   </main>
 
   <footer>
-    <p>Pie de página — © 2025 Mi Sitio</p>
+    <div class="footer-contenido">
+      <p>© 2025 Mi Sitio sobre Computadoras. Todos los derechos reservados.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Inicio</a> |
+        <a href="acerca.html">Acerca</a> |
+        <a href="contacto.html">Contacto</a> |
+        <a href="legal.html">Aviso Legal</a>
+      </nav>
+      <p class="creditos">Diseñado por Fernando Cruz usando HTML5 y CSS3</p>
+    </div>
   </footer>
 </body>
 </html>
