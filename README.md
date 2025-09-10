@@ -41,10 +41,10 @@ Este proyecto corresponde al trabajo de **Programación Web (HTML5 + CSS3)**.
 ## 📸 Capturas de Pantalla
 
 ### 🏠 Página de inicio (index.html)  
-![Index](img/inicio.png.png)
+![Index](img/inicio.png)
 
 ### ℹ️ Página acerca (acerca.html)  
-![Acerca](img/captura-acerca.jpeg.png)
+![Acerca](img/captura-acerca.jpeg)
 
 ### 📑 Servicios (servicios.html)  
 ![Servicios](img/captura-servicios.jpeg)
